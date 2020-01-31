@@ -1,10 +1,10 @@
 %% Load path and data
 
 % Adjust these paths
-paths.main                  = fullfile('/Volumes','Data_drive','Luyckx_etal_2019_SI'); % change path to location of folder
-paths.toolbox.eeglab        = fullfile('~','Documents','MATLAB','eeglab14_1_2b'); % path to location of eeglab version
-paths.toolbox.fieldtrip     = fullfile('~','Documents','MATLAB','fieldtrip'); % path to location of fieldtrip
-paths.toolbox.spm           = fullfile('~','Documents','MATLAB','spm12'); % path to location of spm
+paths.main                  = fullfile(''); % change path to location of folder
+paths.toolbox.eeglab        = fullfile(''); % path to location of eeglab version
+paths.toolbox.fieldtrip     = fullfile(''); % path to location of fieldtrip
+paths.toolbox.spm           = fullfile(''); % path to location of spm
 
 if isempty(paths.main)
     error('Please change paths.main to the location of the folder ''Luyckx_etal_2019_SI''.');
